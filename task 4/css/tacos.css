@@ -1,0 +1,116 @@
+body{
+    background-image: url("https://jolly-kalam-23776e.netlify.com/restaurantwebsite/assets/images/topography.svg"),
+    linear-gradient(110deg, #f93d66, #6d47d9);
+    background-attachment: fixed;
+    padding: 0px;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+  
+  }
+  .heading{
+    color: rgb(249, 249, 250);
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'PT Serif', serif;
+  }
+ .flex-main{
+   display: flex;
+   flex-direction: column;
+   
+  }
+ .flex-master{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   
+  }
+  
+  .flex-1,
+  .flex-2,
+  .flex-3,
+  .flex-4{
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 2px;
+   transition: all 1s ease-in-out;
+  }
+  
+  .flex-1:hover{
+    transform: rotate(45deg);
+    
+  }
+  .flex-2:hover{
+    transform: rotate(45deg);
+    
+  }
+  .flex-3:hover{
+    transform: rotate(45deg);
+    
+  }
+  .flex-4:hover{
+    transform: rotate(45deg);
+    
+  }
+  
+  .flex-5,
+  .flex-6,
+  .flex-7,
+  .flex-8{
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 2px;
+    transition: all 1s ease-in-out;
+    
+  }
+  .flex-5:hover{
+    transform: translate(30px ,30px);
+  }
+  .flex-6:hover{
+    transform: translate(30px ,30px);
+  }
+  .flex-7:hover{
+    transform: translate(30px ,30px);
+  }
+  .flex-8:hover{
+    transform: translate(30px ,30px);
+  }
+  .para{
+    background-image: linear-gradient(to left, #ffc600, transparent);
+    font-size: 20px;
+    margin: 20px;
+    padding: 3px 4px;
+    font-family: 'Arvo', serif;
+font-family: 'PT Serif', serif;
+    animation-name: pallavi;
+    text-align: center;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+    
+  }
+  @keyframes pallavi {
+    from{
+      width: 200px;
+    }
+    to {
+      width: 1000px;
+    }
+  }
+  .para2{
+    background-image: linear-gradient(to left, #ffc600, transparent);
+    font-size: 20px;
+    margin: 20px;
+    padding: 3px 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+  }
+
+  .img{
+    width: 200px;
+    height: 200px;
+  }
