@@ -36,7 +36,7 @@ a{
   margin:20px 0 15px 0;
 }
 .item1 {
-  background-image: url("/images/taco\ \(1\).jpg");
+  background-image: url("../images/taco\ \(1\).jpg");
   min-height: 400px;
   background-size: cover;
   background-position: bottom right;
